@@ -1,7 +1,11 @@
 import mongoose from "mongoose"
  
 const medicalRecordSchema = new  mongoose.Schema({
-   
+   disease : [
+    {
+    type : String,
+    }
+]
     
 },{timestamps: true}
 )
